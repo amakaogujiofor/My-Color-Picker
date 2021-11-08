@@ -1,8 +1,22 @@
 body {
-  background-color: #f0d78c;
+  background-color: #fcf4d9;
+  border: 3px solid brown;
+  margin: 0;
+  text-align: center;
 }
 
-.container {
+/* .container {
   display: flex;
   justify-content: center;
+} */
+
+.my-colors {
+  display: flex;
+  height: 100vh;
+  flex-wrap: wrap;
+}
+.my-color {
+  width: 20%;
+  height: 20%;
+  padding-top: 3em;
 }
