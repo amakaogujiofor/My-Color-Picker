@@ -17,7 +17,7 @@ function displayColors(colors) {
 }
 
 async function getColors() {
-  let response = await fetch("https://apis.scrimba.com/hexcolors?count=5");
+  let response = await fetch("https://apis.scrimba.com/hexcolors?count=25");
   let data = await response.json();
   let colors = data.colors;
   displayColors(colors);
